@@ -1,0 +1,32 @@
+@media(max-width:768px){
+    .main{
+        // background-color: green;
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+
+            .left_container{
+                width: 100% !important;
+
+                .cart_items-inner{
+                    .promotion-ratio{
+                        // display: none;
+                    }
+                    .cart_items-midde{
+                        // padding: 0 16px;
+                        margin: 0 13px;
+                    }
+                }
+            }
+            .right_Container{
+                width: 100% !important;
+            }
+            .hide-mb{
+                display: none !important;
+            }
+        }     
+    }
+}
+
+
+

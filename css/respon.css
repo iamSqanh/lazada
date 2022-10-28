@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .main .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .wrapper .left_container {
+    width: 100% !important;
+  }
+  .main .wrapper .left_container .cart_items-inner .cart_items-midde {
+    margin: 0 13px;
+  }
+  .main .wrapper .right_Container {
+    width: 100% !important;
+  }
+  .main .wrapper .hide-mb {
+    display: none !important;
+  }
+}/*# sourceMappingURL=respon.css.map */
